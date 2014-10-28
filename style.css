@@ -1,11 +1,34 @@
 h1  {
-    color:orange;
+    color:White;
     font-size:30px;
     text-align:center;
     font-family:sans-serif;
 }
   
 h2 {
+    color: white ;
     text-align:center;
-    font-family: fantasy;
+    font-family:avenir next;
 }
+
+h3 {
+    font-family:avenir next;
+    text-align: center;
+}
+
+img {
+    height:200px;
+    
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    font-family:avenir next;
+    color: white;
+}
+
+bloc {
+    
