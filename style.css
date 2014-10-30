@@ -1,34 +1,24 @@
-h1  {
-    color:White;
-    font-size:30px;
-    text-align:center;
-    font-family:sans-serif;
-}
-  
-h2 {
-    color: white ;
-    text-align:center;
-    font-family:avenir next;
-}
-
-h3 {
-    font-family:avenir next;
-    text-align: center;
-}
-
-img {
-    height:200px;
-    
-}
-
-body {
-    background-color: black;
-}
 
 nav {
     font-family:avenir next;
     color: white;
+    
+}
+    
+
+#round {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    float:left;
+    margin-right: 50px;
+    margin-left: 5px;
+    text-align: center;
+    color: pink;
+    text-decoration: none;
+    border-radius: 50px;
+    padding-top: 6px;
+    
 }
 
-bloc {
     
