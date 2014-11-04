@@ -1,24 +1,82 @@
+html {
+    background: url(images/fonds.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+}
 
-nav {
+
+#header {
     font-family:avenir next;
     color: white;
-    
+    z-index:1;
+    width: 100%;
 }
     
 
 #round {
-    background-color: white;
-    width: 100px;
-    height: 30px;
+    background-color:transparent;
+    width: 22%;
+    height: 10%;
+    margin-left:8%;
     float:left;
-    margin-right: 50px;
-    margin-left: 5px;
-    text-align: center;
-    color: pink;
+    margin:center;
+    margin-top: 5%;
+    text-align:center;
+    font-size-adjust: auto;
+    color: white;
     text-decoration: none;
     border-radius: 50px;
-    padding-top: 6px;
+    border:solid white;
     
 }
 
+
+#round:hover {
+    background-color: white;
+    color:pink;
+}
+
+a {
+    text-decoration:none;
+    color:inherit;
+}
+#center {
+    width:90%;
+    height:1200px;
+    background-color: white;
+    border-radius:15px;
+    border:pink;
+    margin-top: 5%;
+    float:left;
+    margin-left:6%;
+    margin-bottom: 10%;    
+}
+
+h1 {
+    display: inline-block;
+    color:pink;
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+    text-align: center;
+    font-family:avenir next;
+    font-size:400%;
+    padding: 0px 0px 0px 0px;
+}
+
+.tof img {
+    width: 85%;
+    border-radius:10px;
+}
+
+.tof {
+    text-align:center;
+}
+@media screen and (max-width:600px) {
+    nav a {
+        font-size:12px;
+    }
+}
+
+.title-wrapper {
+    text-align:center;
+}
     
