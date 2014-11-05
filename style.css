@@ -41,7 +41,7 @@ a {
 }
 #center {
     width:90%;
-    height:1200px;
+    height:80%;
     background-color: white;
     border-radius:15px;
     border:pink;
@@ -62,12 +62,13 @@ h1 {
     padding: 0px 0px 0px 0px;
 }
 
-.tof img {
+.ski img {
     width: 85%;
     border-radius:10px;
+    margin-bottom:5%;
 }
 
-.tof {
+.ski {
     text-align:center;
 }
 @media screen and (max-width:600px) {
@@ -75,7 +76,13 @@ h1 {
         font-size:12px;
     }
 }
+.sticker {
+    text-align: center;
+}
+.sticker img {
+    width:20%;
 
+}
 .title-wrapper {
     text-align:center;
 }
