@@ -5,13 +5,18 @@ html {
 
 
 #header {
-    font-family:avenir next;
+    font-family: avenir next;
     color: white;
     z-index:1;
     width: 100%;
+    height:100px;
 }
-    
 
+@media screen and (max-width:600px) {
+    nav a {
+        font-size:12px;
+    }
+}
 #round {
     background-color:transparent;
     width: 22%;
@@ -39,6 +44,7 @@ a {
     text-decoration:none;
     color:inherit;
 }
+
 #center {
     width:90%;
     height:80%;
@@ -51,6 +57,7 @@ a {
     margin-bottom: 10%;    
 }
 
+    
 h1 {
     display: inline-block;
     color:pink;
@@ -62,28 +69,14 @@ h1 {
     padding: 0px 0px 0px 0px;
 }
 
-.ski img {
-    width: 85%;
-    border-radius:10px;
-    margin-bottom:5%;
-}
-
-.ski {
-    text-align:center;
-}
-@media screen and (max-width:600px) {
-    nav a {
-        font-size:12px;
-    }
-}
-.sticker {
-    text-align: center;
-}
-.sticker img {
-    width:20%;
-
-}
 .title-wrapper {
     text-align:center;
 }
+
+
+.gallery{
     
+}
+
+
+
