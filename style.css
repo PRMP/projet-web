@@ -4,6 +4,7 @@ html {
 }
 
 
+
 #header {
     font-family: avenir next;
     color: white;
@@ -54,7 +55,8 @@ a {
     margin-top: 5%;
     float:left;
     margin-left:6%;
-    margin-bottom: 10%;    
+    margin-bottom: 10%;
+    text-align:center;
 }
 
     
@@ -74,9 +76,37 @@ h1 {
 }
 
 
-.gallery{
+.gallery li {
+    margin:auto;
+    text-decoration: none;
+    list-style: none;
+    width:30%;
+    display: inline-block;
+}
+.gallery li img{
+    border-radius:25px;
+    width:100%;
     
 }
 
+h4 {
+    color: pink;
+    font-family: avenir;
+    font-size: 30px;
+  
+}
+
+#pp {
+    background-color:blue;
+    width: 100px;
+    height:100px;
+    border radius:50px;
+}
+
+#pp img {
+    border-radius: inherit;
+    width:inherit;
+    height:inherit
+}
 
 
